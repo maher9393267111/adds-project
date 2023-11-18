@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./*"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/apps/todolist.tsx", "pages/auth/cover-login.jsx", "pages/ads/index.jsx", "pages/index.jsx", "components/Layouts/Header.jsx"],
+    "exclude": ["node_modules"]
+}
